@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wooden_hoe"
+    },
+    "B": {
+      "item": "minecraft:wooden_sword"
+    },
+    "C": {
+      "item": "minecraft:black_dye"
+    },
+    "D": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "E": {
+      "item": "minecraft:wooden_axe"
+    },
+    "F": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:downgrade",
+    "count": 1
+  }
+}

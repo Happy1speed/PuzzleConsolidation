@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ECE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:magenta_terracotta"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:red_dye"
+    },
+    "D": {
+      "item": "minecraft:iron_shovel"
+    },
+    "E": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:magistrate",
+    "count": 1
+  }
+}

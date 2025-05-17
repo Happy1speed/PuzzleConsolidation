@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BBC",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:arrow"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "minecraft:grass_block"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:azh",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAB",
+    "CDE",
+    "FFF"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "B": {
+      "item": "minecraft:smooth_quartz_stairs"
+    },
+    "C": {
+      "item": "minecraft:stonecutter"
+    },
+    "D": {
+      "item": "minecraft:iron_bars"
+    },
+    "E": {
+      "item": "minecraft:iron_nugget"
+    },
+    "F": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:intervention",
+    "count": 1
+  }
+}

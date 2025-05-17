@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "EBA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:coal"
+    },
+    "B": {
+      "item": "minecraft:stone_button"
+    },
+    "C": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "D": {
+      "item": "minecraft:iron_nugget"
+    },
+    "E": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:hevat",
+    "count": 1
+  }
+}

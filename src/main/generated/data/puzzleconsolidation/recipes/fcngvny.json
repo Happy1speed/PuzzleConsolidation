@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "puzzleconsolidation:ais"
+    },
+    "E": {
+      "item": "puzzleconsolidation:eau"
+    },
+    "G": {
+      "item": "puzzleconsolidation:azh"
+    },
+    "J": {
+      "item": "puzzleconsolidation:jau"
+    },
+    "O": {
+      "item": "puzzleconsolidation:ois"
+    },
+    "P": {
+      "item": "puzzleconsolidation:pas"
+    },
+    "U": {
+      "item": "puzzleconsolidation:uis"
+    },
+    "X": {
+      "item": "puzzleconsolidation:auxx"
+    },
+    "Z": {
+      "item": "puzzleconsolidation:est"
+    }
+  },
+  "pattern": [
+    "EAO",
+    "ZGU",
+    "JXP"
+  ],
+  "result": {
+    "item": "puzzleconsolidation:fcngvny"
+  },
+  "show_notification": true
+}

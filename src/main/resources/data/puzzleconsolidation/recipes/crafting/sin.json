@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "CDE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:black_glazed_terracotta"
+    },
+    "B": {
+      "item": "minecraft:iron_nugget"
+    },
+    "C": {
+      "item": "minecraft:blue_concrete"
+    },
+    "D": {
+      "item": "minecraft:chain"
+    },
+    "E": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:sin",
+    "count": 1
+  }
+}

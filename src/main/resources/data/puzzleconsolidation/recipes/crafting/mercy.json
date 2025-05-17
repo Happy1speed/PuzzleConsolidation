@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BBB",
+    "BAB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:glass_bottle"
+    },
+    "B": {
+      "item": "minecraft:pink_concrete"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:mercy",
+    "count": 1
+  }
+}

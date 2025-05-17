@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CCC",
+    "BAB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blue_stained_glass"
+    },
+    "B": {
+      "item": "minecraft:yellow_stained_glass"
+    },
+    "C": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:transition",
+    "count": 1
+  }
+}

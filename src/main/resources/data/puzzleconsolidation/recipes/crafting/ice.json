@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blue_ice"
+    },
+    "B": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:ice",
+    "count": 1
+  }
+}

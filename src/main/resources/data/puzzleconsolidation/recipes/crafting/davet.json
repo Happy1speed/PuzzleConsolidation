@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAB",
+    "CDE",
+    "EAE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_nugget"
+    },
+    "B": {
+      "item": "minecraft:coal_block"
+    },
+    "C": {
+      "item": "minecraft:stone_button"
+    },
+    "D": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "E": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:davet",
+    "count": 1
+  }
+}

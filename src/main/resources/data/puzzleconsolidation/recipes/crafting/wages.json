@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:crimson_roots"
+    },
+    "B": {
+      "item": "minecraft:iron_nugget"
+    },
+    "C": {
+      "item": "minecraft:diamond_sword"
+    },
+    "D": {
+      "item": "minecraft:smooth_sandstone"
+    },
+    "E": {
+      "item": "minecraft:cut_sandstone"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:wages",
+    "count": 1
+  }
+}

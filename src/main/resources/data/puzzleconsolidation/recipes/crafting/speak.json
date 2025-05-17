@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_nugget"
+    },
+    "B": {
+      "item": "minecraft:quartz_bricks"
+    },
+    "C": {
+      "item": "minecraft:nether_bricks"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:speak",
+    "count": 1
+  }
+}

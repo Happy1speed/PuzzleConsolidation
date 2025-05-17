@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:black_dye"
+    },
+    "B": {
+      "item": "minecraft:leather_helmet"
+    },
+    "C": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "D": {
+      "item": "minecraft:armor_stand"
+    },
+    "E": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "F": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:prince",
+    "count": 1
+  }
+}

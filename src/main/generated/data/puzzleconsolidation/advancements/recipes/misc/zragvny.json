@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_entire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:entire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_fire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:fire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_inert": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:inert"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_irate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:irate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:ire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_price": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:price"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_spine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:spine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_spire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:spire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:zragvny"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_fire",
+      "has_ire",
+      "has_irate",
+      "has_entire",
+      "has_inert",
+      "has_price",
+      "has_spine",
+      "has_ice",
+      "has_spire",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:zragvny"
+    ]
+  },
+  "sends_telemetry_event": false
+}

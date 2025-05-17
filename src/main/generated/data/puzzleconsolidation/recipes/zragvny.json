@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "puzzleconsolidation:irate"
+    },
+    "E": {
+      "item": "puzzleconsolidation:entire"
+    },
+    "F": {
+      "item": "puzzleconsolidation:fire"
+    },
+    "I": {
+      "item": "puzzleconsolidation:ire"
+    },
+    "L": {
+      "item": "puzzleconsolidation:spire"
+    },
+    "O": {
+      "item": "puzzleconsolidation:ice"
+    },
+    "P": {
+      "item": "puzzleconsolidation:price"
+    },
+    "S": {
+      "item": "puzzleconsolidation:spine"
+    },
+    "V": {
+      "item": "puzzleconsolidation:inert"
+    }
+  },
+  "pattern": [
+    "FIC",
+    "EVP",
+    "SOL"
+  ],
+  "result": {
+    "item": "puzzleconsolidation:zragvny"
+  },
+  "show_notification": true
+}

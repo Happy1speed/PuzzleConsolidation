@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "puzzleconsolidation:alev"
+    },
+    "C": {
+      "item": "puzzleconsolidation:chevit"
+    },
+    "D": {
+      "item": "puzzleconsolidation:davet"
+    },
+    "G": {
+      "item": "puzzleconsolidation:givel"
+    },
+    "H": {
+      "item": "puzzleconsolidation:hevat"
+    },
+    "L": {
+      "item": "puzzleconsolidation:laved"
+    },
+    "T": {
+      "item": "puzzleconsolidation:tevit"
+    },
+    "V": {
+      "item": "puzzleconsolidation:vet"
+    },
+    "Z": {
+      "item": "puzzleconsolidation:zavin"
+    }
+  },
+  "pattern": [
+    "AVG",
+    "DHZ",
+    "CTL"
+  ],
+  "result": {
+    "item": "puzzleconsolidation:vavgvny"
+  },
+  "show_notification": true
+}

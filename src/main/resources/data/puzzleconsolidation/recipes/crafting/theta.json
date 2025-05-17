@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:green_concrete"
+    },
+    "B": {
+      "item": "minecraft:green_terracotta"
+    },
+    "C": {
+      "item": "minecraft:brown_terracotta"
+    },
+    "D": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:theta",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:black_concrete"
+    },
+    "B": {
+      "item": "minecraft:white_concrete"
+    },
+    "C": {
+      "item": "minecraft:gray_concrete"
+    },
+    "D": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    "E": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:spire",
+    "count": 1
+  }
+}

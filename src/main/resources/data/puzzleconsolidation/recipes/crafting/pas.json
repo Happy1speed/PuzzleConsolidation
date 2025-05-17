@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:fire_charge"
+    },
+    "B": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "C": {
+      "item": "minecraft:sunflower"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:pas",
+    "count": 1
+  }
+}

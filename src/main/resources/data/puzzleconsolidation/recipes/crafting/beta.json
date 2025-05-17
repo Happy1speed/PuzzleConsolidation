@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:oak_leaves"
+    },
+    "B": {
+      "item": "minecraft:spruce_leaves"
+    },
+    "C": {
+      "item": "minecraft:birch_leaves"
+    },
+    "D": {
+      "item": "minecraft:jungle_leaves"
+    },
+    "E": {
+      "item": "minecraft:gold_nugget"
+    },
+    "F": {
+      "item": "minecraft:acacia_leaves"
+    },
+    "G": {
+      "item": "minecraft:dark_oak_leaves"
+    },
+    "H": {
+      "item": "minecraft:mangrove_leaves"
+    },
+    "I": {
+      "item": "minecraft:cherry_leaves"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:beta",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:coal_block"
+    },
+    "B": {
+      "item": "minecraft:copper_block"
+    },
+    "C": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "minecraft:gold_block"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    },
+    "F": {
+      "item": "minecraft:emerald_block"
+    },
+    "G": {
+      "item": "minecraft:lapis_block"
+    },
+    "H": {
+      "item": "minecraft:diamond_block"
+    },
+    "I": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:automation_aspect",
+    "count": 1
+  }
+}

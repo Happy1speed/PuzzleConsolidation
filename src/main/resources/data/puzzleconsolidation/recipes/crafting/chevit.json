@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "BEA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:coal"
+    },
+    "B": {
+      "item": "minecraft:coal_block"
+    },
+    "C": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "D": {
+      "item": "minecraft:iron_nugget"
+    },
+    "E": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:chevit",
+    "count": 1
+  }
+}

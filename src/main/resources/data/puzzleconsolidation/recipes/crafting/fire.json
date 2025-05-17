@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:lime_dye"
+    },
+    "B": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "C": {
+      "item": "minecraft:orange_dye"
+    },
+    "D": {
+      "item": "minecraft:charcoal"
+    },
+    "E": {
+      "item": "minecraft:coal"
+    },
+    "F": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:fire",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BAB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "B": {
+      "item": "minecraft:dark_oak_button"
+    },
+    "C": {
+      "item": "minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:death",
+    "count": 1
+  }
+}

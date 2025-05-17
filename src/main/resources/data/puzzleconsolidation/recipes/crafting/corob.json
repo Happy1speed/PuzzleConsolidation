@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BDB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:fire_charge"
+    },
+    "B": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "C": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "D": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:corob",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "puzzleconsolidation:bureaucrat"
+    },
+    "C": {
+      "item": "puzzleconsolidation:chancellor"
+    },
+    "L": {
+      "item": "puzzleconsolidation:commissioner"
+    },
+    "M": {
+      "item": "puzzleconsolidation:magistrate"
+    },
+    "O": {
+      "item": "puzzleconsolidation:overseer"
+    },
+    "P": {
+      "item": "puzzleconsolidation:prince"
+    },
+    "V": {
+      "item": "puzzleconsolidation:vortex"
+    },
+    "X": {
+      "item": "puzzleconsolidation:practitioner"
+    },
+    "Y": {
+      "item": "puzzleconsolidation:orator"
+    }
+  },
+  "pattern": [
+    "POC",
+    "MVL",
+    "XYB"
+  ],
+  "result": {
+    "item": "puzzleconsolidation:znmgvny"
+  },
+  "show_notification": true
+}

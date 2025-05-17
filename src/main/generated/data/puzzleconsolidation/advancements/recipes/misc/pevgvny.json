@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_downgrade": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:downgrade"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_relent": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:relent"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_reverse": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:reverse"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_reward": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:reward"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pevgvny"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_transition": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:transition"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_transpire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:transpire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_transport": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:transport"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_upkeep": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:upkeep"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_upshot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:upshot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_transport",
+      "has_upkeep",
+      "has_reward",
+      "has_transpire",
+      "has_downgrade",
+      "has_relent",
+      "has_transition",
+      "has_upshot",
+      "has_reverse",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pevgvny"
+    ]
+  },
+  "sends_telemetry_event": false
+}

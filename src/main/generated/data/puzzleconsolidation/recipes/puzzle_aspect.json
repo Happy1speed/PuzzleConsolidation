@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "puzzleconsolidation:zragvny"
+    },
+    "G": {
+      "item": "puzzleconsolidation:cnegvny"
+    },
+    "I": {
+      "item": "puzzleconsolidation:nkvgvny"
+    },
+    "J": {
+      "item": "puzzleconsolidation:znmgvny"
+    },
+    "L": {
+      "item": "puzzleconsolidation:fcngvny"
+    },
+    "M": {
+      "item": "puzzleconsolidation:pevgvny"
+    },
+    "S": {
+      "item": "puzzleconsolidation:vavgvny"
+    },
+    "U": {
+      "item": "puzzleconsolidation:gevgvny"
+    },
+    "W": {
+      "item": "puzzleconsolidation:gregvny"
+    }
+  },
+  "pattern": [
+    "SGW",
+    "LJU",
+    "DMI"
+  ],
+  "result": {
+    "item": "puzzleconsolidation:puzzle_aspect"
+  },
+  "show_notification": true
+}

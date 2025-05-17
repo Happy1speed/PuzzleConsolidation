@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_death": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:death"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_grace": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:grace"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_intervention": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:intervention"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_justice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:justice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_listen": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:listen"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mercy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:mercy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:sin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_speak": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:speak"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:nkvgvny"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wages": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:wages"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_sin",
+      "has_grace",
+      "has_wages",
+      "has_listen",
+      "has_justice",
+      "has_speak",
+      "has_death",
+      "has_mercy",
+      "has_intervention",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:nkvgvny"
+    ]
+  },
+  "sends_telemetry_event": false
+}

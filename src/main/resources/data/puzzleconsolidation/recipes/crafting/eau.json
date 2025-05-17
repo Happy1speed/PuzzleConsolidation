@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DAD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_nugget"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "minecraft:painting"
+    },
+    "D": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:eau",
+    "count": 1
+  }
+}

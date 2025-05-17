@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "C": {
+      "item": "minecraft:arrow"
+    },
+    "D": {
+      "item": "minecraft:string"
+    },
+    "E": {
+      "item": "minecraft:spider_eye"
+    },
+    "F": {
+      "item": "minecraft:gunpowder"
+    },
+    "G": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "H": {
+      "item": "minecraft:ender_pearl"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:combat_aspect",
+    "count": 1
+  }
+}

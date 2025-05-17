@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "puzzleconsolidation:san"
+    },
+    "B": {
+      "item": "puzzleconsolidation:ba"
+    },
+    "E": {
+      "item": "puzzleconsolidation:er"
+    },
+    "J": {
+      "item": "puzzleconsolidation:jiu"
+    },
+    "L": {
+      "item": "puzzleconsolidation:liu"
+    },
+    "Q": {
+      "item": "puzzleconsolidation:qi"
+    },
+    "S": {
+      "item": "puzzleconsolidation:shi"
+    },
+    "W": {
+      "item": "puzzleconsolidation:wu"
+    },
+    "Y": {
+      "item": "puzzleconsolidation:yi"
+    }
+  },
+  "pattern": [
+    "YEA",
+    "SWL",
+    "QBJ"
+  ],
+  "result": {
+    "item": "puzzleconsolidation:cnegvny"
+  },
+  "show_notification": true
+}

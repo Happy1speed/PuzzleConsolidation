@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CBC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "C": {
+      "item": "minecraft:crimson_roots"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:spine",
+    "count": 1
+  }
+}

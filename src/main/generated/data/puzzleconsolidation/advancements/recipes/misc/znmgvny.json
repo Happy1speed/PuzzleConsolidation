@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bureaucrat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:bureaucrat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_chancellor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:chancellor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_commissioner": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:commissioner"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magistrate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:magistrate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_orator": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:orator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_overseer": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:overseer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_practitioner": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:practitioner"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_prince": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:prince"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:znmgvny"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vortex": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:vortex"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_prince",
+      "has_overseer",
+      "has_chancellor",
+      "has_magistrate",
+      "has_vortex",
+      "has_commissioner",
+      "has_practitioner",
+      "has_orator",
+      "has_bureaucrat",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:znmgvny"
+    ]
+  },
+  "sends_telemetry_event": false
+}

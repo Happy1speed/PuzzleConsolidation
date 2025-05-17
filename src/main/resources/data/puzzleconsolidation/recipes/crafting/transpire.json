@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:water_bucket"
+    },
+    "B": {
+      "item": "minecraft:hay_block"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:transpire",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "puzzleconsolidation:death"
+    },
+    "G": {
+      "item": "puzzleconsolidation:grace"
+    },
+    "I": {
+      "item": "puzzleconsolidation:intervention"
+    },
+    "J": {
+      "item": "puzzleconsolidation:justice"
+    },
+    "L": {
+      "item": "puzzleconsolidation:listen"
+    },
+    "M": {
+      "item": "puzzleconsolidation:mercy"
+    },
+    "S": {
+      "item": "puzzleconsolidation:sin"
+    },
+    "U": {
+      "item": "puzzleconsolidation:speak"
+    },
+    "W": {
+      "item": "puzzleconsolidation:wages"
+    }
+  },
+  "pattern": [
+    "SGW",
+    "LJU",
+    "DMI"
+  ],
+  "result": {
+    "item": "puzzleconsolidation:nkvgvny"
+  },
+  "show_notification": true
+}

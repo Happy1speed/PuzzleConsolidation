@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ba": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:ba"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_er": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:er"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jiu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:jiu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_liu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:liu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_qi": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:qi"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_san": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:san"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_shi": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:shi"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cnegvny"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:wu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_yi": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:yi"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yi",
+      "has_er",
+      "has_san",
+      "has_shi",
+      "has_wu",
+      "has_liu",
+      "has_qi",
+      "has_ba",
+      "has_jiu",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cnegvny"
+    ]
+  },
+  "sends_telemetry_event": false
+}

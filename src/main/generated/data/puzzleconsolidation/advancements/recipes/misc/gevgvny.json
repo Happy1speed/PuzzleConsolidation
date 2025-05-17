@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_basal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:basal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_corob": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:corob"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_count": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:count"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_frame": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:frame"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_libra": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:libra"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_motiv": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:motiv"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_radix": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:radix"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_redux": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:redux"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_seven": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:seven"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gevgvny"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_count",
+      "has_redux",
+      "has_frame",
+      "has_libra",
+      "has_radix",
+      "has_basal",
+      "has_seven",
+      "has_corob",
+      "has_motiv",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gevgvny"
+    ]
+  },
+  "sends_telemetry_event": false
+}

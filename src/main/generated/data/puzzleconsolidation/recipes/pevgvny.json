@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "puzzleconsolidation:downgrade"
+    },
+    "I": {
+      "item": "puzzleconsolidation:transpire"
+    },
+    "N": {
+      "item": "puzzleconsolidation:transition"
+    },
+    "O": {
+      "item": "puzzleconsolidation:relent"
+    },
+    "R": {
+      "item": "puzzleconsolidation:reward"
+    },
+    "T": {
+      "item": "puzzleconsolidation:transport"
+    },
+    "U": {
+      "item": "puzzleconsolidation:upkeep"
+    },
+    "V": {
+      "item": "puzzleconsolidation:reverse"
+    },
+    "Z": {
+      "item": "puzzleconsolidation:upshot"
+    }
+  },
+  "pattern": [
+    "TUR",
+    "IDO",
+    "NZV"
+  ],
+  "result": {
+    "item": "puzzleconsolidation:pevgvny"
+  },
+  "show_notification": true
+}

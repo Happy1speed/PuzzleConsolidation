@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cnegvny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:cnegvny"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_fcngvny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:fcngvny"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gevgvny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:gevgvny"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gregvny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:gregvny"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_nkvgvny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:nkvgvny"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pevgvny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:pevgvny"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:puzzle_aspect"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vavgvny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:vavgvny"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_znmgvny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:znmgvny"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_zragvny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:zragvny"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vavgvny",
+      "has_cnegvny",
+      "has_gregvny",
+      "has_fcngvny",
+      "has_znmgvny",
+      "has_gevgvny",
+      "has_zragvny",
+      "has_pevgvny",
+      "has_nkvgvny",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:puzzle_aspect"
+    ]
+  },
+  "sends_telemetry_event": false
+}

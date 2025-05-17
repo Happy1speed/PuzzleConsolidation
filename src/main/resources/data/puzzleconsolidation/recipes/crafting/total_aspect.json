@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": {
+      "item": "puzzleconsolidation:combat_aspect"
+    },
+    "B": {
+      "item": "puzzleconsolidation:automation_aspect"
+    },
+    "C": {
+      "item": "puzzleconsolidation:coriolis_nexus"
+    },
+    "D": {
+      "item": "puzzleconsolidation:building_aspect"
+    },
+    "E": {
+      "item": "puzzleconsolidation:puzzle_aspect"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:total_aspect",
+    "count": 1
+  }
+}

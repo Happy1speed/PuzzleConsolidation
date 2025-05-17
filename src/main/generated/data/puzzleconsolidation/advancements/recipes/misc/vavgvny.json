@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_alev": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:alev"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_chevit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:chevit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_davet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:davet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_givel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:givel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_hevat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:hevat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_laved": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:laved"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tevit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:tevit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:vavgvny"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:vet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_zavin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:zavin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_laved",
+      "has_tevit",
+      "has_chevit",
+      "has_zavin",
+      "has_hevat",
+      "has_davet",
+      "has_givel",
+      "has_vet",
+      "has_alev",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:vavgvny"
+    ]
+  },
+  "sends_telemetry_event": false
+}

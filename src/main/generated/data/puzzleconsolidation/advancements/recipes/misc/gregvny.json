@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_alpha": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:alpha"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_beta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:beta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_delta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:delta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_digamma": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:digamma"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_epsilon": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:epsilon"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_eta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:eta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gamma": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:gamma"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gregvny"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_theta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:theta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_zeta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puzzleconsolidation:zeta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_alpha",
+      "has_beta",
+      "has_gamma",
+      "has_delta",
+      "has_epsilon",
+      "has_digamma",
+      "has_zeta",
+      "has_eta",
+      "has_theta",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gregvny"
+    ]
+  },
+  "sends_telemetry_event": false
+}

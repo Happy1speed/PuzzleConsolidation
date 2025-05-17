@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DBD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:smooth_sandstone"
+    },
+    "B": {
+      "item": "minecraft:cut_sandstone"
+    },
+    "C": {
+      "item": "minecraft:red_concrete"
+    },
+    "D": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:justice",
+    "count": 1
+  }
+}

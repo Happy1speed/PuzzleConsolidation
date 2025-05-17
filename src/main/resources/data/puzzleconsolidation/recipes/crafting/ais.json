@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "B": {
+      "item": "minecraft:grass_block"
+    },
+    "C": {
+      "item": "minecraft:wither_rose"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:ais",
+    "count": 1
+  }
+}

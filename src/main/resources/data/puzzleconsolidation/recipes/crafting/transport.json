@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sand"
+    },
+    "B": {
+      "item": "minecraft:lime_glazed_terracotta"
+    },
+    "C": {
+      "item": "minecraft:chest_minecart"
+    }
+  },
+  "result": {
+    "item": "puzzleconsolidation:transport",
+    "count": 1
+  }
+}
